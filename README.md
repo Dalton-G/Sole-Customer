@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sole Customer
+Sole Customer is a front-end e-commerce store where users can browse and purchase products created by [Sole Admin](https://github.com/Dalton-G/Sole-Admin). Users can browse the featured items, or explore each of the categories from the navbar. Each category also comes with it's filtering options as well. User can preview items, add to cart, and checkout securely using Stripe.
 
-## Getting Started
+## To Preview
 
-First, run the development server:
+You may visit the deployed website [here](https://sole-customer.vercel.app), or clone this repository and run it using:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
+- **🏪 product filtering**: filter by category, colors and size
+- **👟 product preview**: don't want to load a full page? just click the preview button!
+- **💵 dynamic add-to-cart**: your cart items are saved into your browser's local storage
+- **🔗 stripe checkout**: a fully-functional checkout page managed by Stripe
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies used
+| Technologies                 | Purpose                              |
+|------------------------------|--------------------------------------|
+| Next.js                      | main framework                       |
+| React, Tailwind, Headless UI | front-end libraries used for styling |
+| PostgreSQL                   | open-source relational DBMS          |
+| Prisma                       | ORM for generating & executing SQL   |
+| Supabase                     | Database host                        |
+| Cloudinary                   | Media Upload                         |
+| Clerk                        | Authentication                       |
+| Stripe                       | Checkout                             |
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Screenshots
+![featured_items](https://github.com/Dalton-G/Sole-Customer/blob/master/assets/featured_items.png?raw=true)
+![filter_items](https://github.com/Dalton-G/Sole-Customer/blob/master/assets/filter_items.png?raw=true)
+![item_preview](https://github.com/Dalton-G/Sole-Customer/blob/master/assets/item_preview.png?raw=true)
+![full_product_page](https://github.com/Dalton-G/Sole-Customer/blob/master/assets/full_product_page.png?raw=true)
+![shopping_cart](https://github.com/Dalton-G/Sole-Customer/blob/master/assets/shopping_cart.png?raw=true)
+![stripe](https://github.com/Dalton-G/Sole-Customer/blob/master/assets/stripe.png?raw=true)
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Please make sure to update tests as appropriate.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[MIT](https://github.com/Dalton-G/Sole-Customer/blob/main/LICENSE)
