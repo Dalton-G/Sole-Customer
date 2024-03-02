@@ -33,7 +33,7 @@ npm run dev
 ![item_preview](https://github.com/Dalton-G/Sole-Customer/blob/master/assets/item_preview.png?raw=true)
 ![full_product_page](https://github.com/Dalton-G/Sole-Customer/blob/master/assets/full_product_page.png?raw=true)
 ![shopping_cart](https://github.com/Dalton-G/Sole-Customer/blob/master/assets/shopping_cart.png?raw=true)
-![stripe](https://github.com/Dalton-G/Sole-Customer/blob/master/assets/stripe.png?raw=true)
+![stripe](https://github.com/Dalton-G/Sole-Customer/blob/master/assets/stripe_page.png?raw=true)
 
 ## Contributing
 
