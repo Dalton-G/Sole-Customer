@@ -29,6 +29,7 @@ npm run dev
 
 ## Screenshots
 ![featured_items](https://github.com/Dalton-G/Sole-Customer/blob/master/assets/featured_items.png?raw=true)
+![collection_page](https://github.com/Dalton-G/Sole-Customer/blob/master/assets/collection_page.png?raw=true)
 ![filter_items](https://github.com/Dalton-G/Sole-Customer/blob/master/assets/filter_items.png?raw=true)
 ![item_preview](https://github.com/Dalton-G/Sole-Customer/blob/master/assets/item_preview.png?raw=true)
 ![full_product_page](https://github.com/Dalton-G/Sole-Customer/blob/master/assets/full_product_page.png?raw=true)
